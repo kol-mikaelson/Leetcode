@@ -11,7 +11,6 @@ class Solution(object):
             if (sub in nums) and (nums.index(sub) != count):
                 result = [count, nums.index(sub)]
                 return result
-                count = len(nums) + 1
             else:
                 count += 1
 
